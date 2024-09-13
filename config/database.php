@@ -40,4 +40,3 @@ if($conn){
     echo "Failed to connect to database error : " . mysqli_connect_error();
 }
 ?>
-
