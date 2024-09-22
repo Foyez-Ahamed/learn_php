@@ -35,7 +35,7 @@ $conn = @mysqli_connect(
 );
 
 if($conn){
-    echo "Database connection successfully";
+    echo "Database connection successfully <br>";
 } else {
     echo "Failed to connect to database error : " . mysqli_connect_error();
 }
